@@ -11,7 +11,8 @@ print(cat["file"]) #generate link to a random cat image
 link = cat["file"]
 savein='cat.jpg'
 #save randomly generated cat picture into cat.jpg
+
 try:
-    urllib.request.urlretrieve(cat["file"],savein)
+    urllib.request.urlretrieve(cat["file"],savein) 
 except:
     print('Network Issue')
