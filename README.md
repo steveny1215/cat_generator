@@ -1,0 +1,1 @@
+This generates a random picture of a cat and save it into cat.jpg. Have fun!
